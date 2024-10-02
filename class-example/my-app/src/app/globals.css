@@ -1,0 +1,17 @@
+/* box-sizing: border-box; 안써도 됨, @tailwind base에 들어있음 */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 나만의 부트스트랩 CSS*/
+@layer utilities {
+  .철수의상자 {
+    color: green;
+    font-size: 30px;
+  }
+}
+
+* {
+  font-family: var(--글로벌폰트변수);
+}
